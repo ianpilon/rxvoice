@@ -1,0 +1,81 @@
+{
+  "_note": "DEMO corpus. Plain-language, patient-facing medication information shaped like a Health Canada Patient Medication Information (PMI) leaflet. This is illustrative demo content, NOT medical advice and NOT a verified product monograph. A real build would ingest the authoritative structured monograph / PMI for each drug. Always tells the patient to confirm with their pharmacist or doctor.",
+  "medications": [
+    {
+      "id": "metformin",
+      "generic_name": "metformin",
+      "brand_names": ["Glucophage"],
+      "spoken_name": "metformin",
+      "drug_class": "diabetes medicine (biguanide)",
+      "what_its_for": "Metformin is used to help control blood sugar in adults with type 2 diabetes. It is usually used along with diet and exercise, and sometimes with other diabetes medicines.",
+      "sections": {
+        "how_to_take": "Take metformin with a meal, exactly as your doctor told you. Swallow the tablet whole with a glass of water. Take it at the same times each day so it is easier to remember. Do not change your dose or stop taking it without talking to your doctor first.",
+        "with_food": "Yes. Take metformin with food, usually with your largest meal. Taking it with food lowers the chance of an upset stomach, nausea, or diarrhea, which are common when you first start.",
+        "missed_dose": "If you miss a dose, take it with food as soon as you remember. But if it is almost time for your next dose, skip the missed one and go back to your regular schedule. Do not take two doses at once to make up for a missed one.",
+        "common_side_effects": "The most common side effects are stomach upset, nausea, diarrhea, gas, and a metallic taste. These often ease over the first few weeks, especially if you take it with food. Tell your pharmacist if they do not settle.",
+        "serious_side_effects": "A rare but serious reaction called lactic acidosis can happen. Stop taking metformin and get medical help right away if you feel very weak or tired, have unusual muscle pain, trouble breathing, stomach pain with nausea or vomiting, feel cold, or have a slow or irregular heartbeat.",
+        "interactions": "Tell your pharmacist about all your medicines. Some medicines, dyes used in certain imaging scans, and drinking a lot of alcohol can raise the risk of side effects with metformin. If you are having a scan with contrast dye or surgery, your doctor may pause it for a short time.",
+        "alcohol": "Limit alcohol while taking metformin. Drinking a lot, or binge drinking, raises the risk of low blood sugar and the rare serious reaction called lactic acidosis.",
+        "storage": "Store metformin at room temperature, away from heat and moisture, and keep it in its original container. Keep it out of the reach of children.",
+        "low_blood_sugar": "Metformin on its own does not usually cause low blood sugar, but it can if you also take insulin or certain other diabetes medicines, skip meals, or drink alcohol. Signs are shakiness, sweating, confusion, or feeling very hungry. Treat it with a fast sugar source and tell your doctor if it keeps happening."
+      }
+    },
+    {
+      "id": "atorvastatin",
+      "generic_name": "atorvastatin",
+      "brand_names": ["Lipitor"],
+      "spoken_name": "atorvastatin",
+      "drug_class": "cholesterol medicine (statin)",
+      "what_its_for": "Atorvastatin lowers high cholesterol and helps lower the risk of heart attack and stroke. It works best alongside a healthy diet, exercise, and other steps your doctor recommends.",
+      "sections": {
+        "how_to_take": "Take atorvastatin once a day, at the same time each day. You can take it with or without food. Swallow the tablet whole with water. Keep taking it even if you feel well, because high cholesterol usually has no symptoms.",
+        "with_food": "You can take atorvastatin with or without food. It does not need to be taken with a meal. Just try to take it at the same time each day.",
+        "missed_dose": "If you miss a dose, take it as soon as you remember on the same day. If it has been more than about twelve hours, or it is almost time for the next dose, skip the missed one. Do not take two doses at once.",
+        "common_side_effects": "Common side effects can include muscle or joint aches, mild stomach upset, and cold-like symptoms. Many people have no side effects at all. Tell your pharmacist if anything bothers you.",
+        "serious_side_effects": "Call your doctor right away if you have unexplained muscle pain, tenderness, or weakness, especially with a fever or feeling unwell, or if you notice dark urine. Also report yellowing of the skin or eyes, or severe stomach pain, as these can be signs of a liver problem.",
+        "interactions": "Some medicines and grapefruit can change how atorvastatin works. Tell your pharmacist about all your medicines, including other cholesterol drugs and certain antibiotics and antifungals.",
+        "grapefruit": "Avoid large amounts of grapefruit or grapefruit juice while taking atorvastatin. Grapefruit can raise the level of the medicine in your body and increase the risk of side effects, especially muscle problems.",
+        "alcohol": "Talk to your doctor about alcohol. Drinking a lot regularly can raise the risk of liver problems while taking atorvastatin.",
+        "storage": "Store atorvastatin at room temperature, away from moisture and heat, in its original container, and out of the reach of children."
+      }
+    },
+    {
+      "id": "lisinopril",
+      "generic_name": "lisinopril",
+      "brand_names": ["Prinivil", "Zestril"],
+      "spoken_name": "lisinopril",
+      "drug_class": "blood pressure medicine (ACE inhibitor)",
+      "what_its_for": "Lisinopril is used to treat high blood pressure and to help protect the heart and kidneys. Lowering blood pressure helps lower the risk of stroke and heart attack.",
+      "sections": {
+        "how_to_take": "Take lisinopril once a day, at the same time each day, with or without food. Swallow it with water. Keep taking it even if you feel well, since high blood pressure usually has no symptoms. Do not stop suddenly without talking to your doctor.",
+        "with_food": "You can take lisinopril with or without food. Taking it at the same time each day is what matters most.",
+        "missed_dose": "If you miss a dose, take it as soon as you remember. If it is almost time for your next dose, skip the missed one and continue as normal. Do not take two doses at once.",
+        "common_side_effects": "A common side effect is a dry, tickly cough that does not go away. Others include dizziness, especially when standing up quickly, headache, and feeling tired. Stand up slowly for the first while. Tell your pharmacist if the cough bothers you, as there are alternatives.",
+        "serious_side_effects": "Get emergency help right away if you have swelling of the face, lips, tongue, or throat, or trouble breathing or swallowing, as this can be a serious allergic reaction. Also call your doctor if you faint, have a very fast or irregular heartbeat, or pass little or no urine.",
+        "interactions": "Tell your pharmacist about all your medicines. Anti-inflammatory painkillers like ibuprofen, water pills, potassium supplements, and salt substitutes that contain potassium can interact with lisinopril.",
+        "alcohol": "Alcohol can add to the blood-pressure-lowering effect and make you feel dizzy or lightheaded. Limit alcohol, especially when you first start.",
+        "pregnancy": "Lisinopril can harm an unborn baby. Tell your doctor right away if you are pregnant, might be pregnant, or are planning a pregnancy, so they can switch you to a safer option.",
+        "storage": "Store lisinopril at room temperature, away from moisture and heat, in its original container, and out of the reach of children."
+      }
+    },
+    {
+      "id": "amoxicillin",
+      "generic_name": "amoxicillin",
+      "brand_names": ["Amoxil"],
+      "spoken_name": "amoxicillin",
+      "drug_class": "antibiotic (penicillin type)",
+      "what_its_for": "Amoxicillin is an antibiotic used to treat bacterial infections, such as some chest, ear, throat, sinus, and urinary infections. It does not work against colds or the flu, which are caused by viruses.",
+      "sections": {
+        "how_to_take": "Take amoxicillin exactly as prescribed, spaced evenly through the day, with or without food. Finish the entire course even if you feel better, unless your doctor tells you to stop. Stopping early can let the infection come back and helps bacteria become resistant.",
+        "with_food": "You can take amoxicillin with or without food. Taking it with a little food can help if it upsets your stomach.",
+        "missed_dose": "If you miss a dose, take it as soon as you remember. If it is almost time for the next dose, skip the missed one. Do not take two doses at once. Try to keep the doses evenly spaced.",
+        "common_side_effects": "Common side effects include diarrhea, nausea, and stomach upset. A mild skin rash can also happen. Tell your pharmacist if these bother you.",
+        "serious_side_effects": "Get emergency help right away for signs of a serious allergic reaction: swelling of the face, lips, tongue, or throat, trouble breathing, or a widespread hives or rash. Also call your doctor if you get severe, watery, or bloody diarrhea, which can happen even weeks after finishing the antibiotic.",
+        "interactions": "Tell your pharmacist about all your medicines. Amoxicillin can interact with some other antibiotics, the gout medicine allopurinol, and certain blood thinners. If you take the birth control pill, ask your pharmacist whether you need a backup method.",
+        "allergy": "Do not take amoxicillin if you are allergic to penicillin or related antibiotics. Tell your pharmacist about any past reaction to an antibiotic before you start.",
+        "alcohol": "A small amount of alcohol is usually okay with amoxicillin, but it can add to side effects like an upset stomach. Rest and fluids help you recover from the infection.",
+        "storage": "Store the tablets or capsules at room temperature. If you have the liquid form, it usually needs to be kept in the fridge, do not freeze it, and is thrown out after the number of days on the label. Keep all forms out of the reach of children."
+      }
+    }
+  ]
+}

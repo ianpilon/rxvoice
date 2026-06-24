@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: rxvoice-backend
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node mcp-servers/unified-server.js
+    healthCheckPath: /health

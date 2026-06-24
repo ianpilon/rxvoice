@@ -1,0 +1,14 @@
+{
+  "name": "rxvoice",
+  "version": "1.0.0",
+  "description": "RxVoice — voice access to plain-language patient medication information. Ask a real question out loud, hear the approved answer read back from the patient information.",
+  "main": "mcp-servers/unified-server.js",
+  "scripts": {
+    "start": "node mcp-servers/unified-server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
